@@ -377,48 +377,6 @@
       "imageUrl": "https://image-raw.reversible.com/raw_images/4c41a399e13838c7c19d6a6c87906ab538dc9082574815d36a3b118a91db1e58",
       "createdAt": 1736255538232,
       "isDesigner": true
-    },
-    {
-      "id": "D5Bid",
-      "itemName": "bouclé long sleeve mini dress",
-      "colorName": "beige",
-      "colorKey": ["beige"],
-      "size": "uk 12",
-      "brand": "self-portrait",
-      "mainCategory": "clothing",
-      "subCategories": ["dress", "mini dress"],
-      "collections": [],
-      "imageUrl": "https://cdna.lystit.com/520/650/n/photos/lvr/689b151c/self-portrait-Gold-Boucle-Long-Sleeve-Mini-Dress.jpeg",
-      "createdAt": 1736255425357,
-      "isDesigner": true
-    },
-    {
-      "id": "Ng9GU",
-      "itemName": "navy weave knit mini dress",
-      "colorName": "navy",
-      "colorKey": ["navy"],
-      "size": "s",
-      "brand": "self-portrait",
-      "mainCategory": "clothing",
-      "subCategories": ["dress", "mini dress"],
-      "collections": [],
-      "imageUrl": "https://topsluxury.store/337424-large_default/navy-weave-knit-mini-dress.jpg",
-      "createdAt": 1736255229548,
-      "isDesigner": true
-    },
-    {
-      "id": "Hs3Y2",
-      "itemName": "black crepe bow mini dress",
-      "colorName": "black",
-      "colorKey": ["black", "white"],
-      "size": "uk 12",
-      "brand": "self-portrait",
-      "mainCategory": "clothing",
-      "subCategories": ["dress", "maxi dress"],
-      "collections": [],
-      "imageUrl": "https://www.mytheresa.com/media/1094/1238/100/92/P00894599.jpg",
-      "createdAt": 1736254831768,
-      "isDesigner": true
     }
   ]
 }

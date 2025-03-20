@@ -1,12 +1,19 @@
 <template>
-  <pre v-if="item">{{ item }}</pre>
+  <div v-if="item">
+    <pre>{{ item }}</pre>
+    <ItemSizeCard :size="item.size" />
+  </div>
 </template>
 
 <script>
 import ItemsService from "@/services/ItemsService";
+import ItemSizeCard from "@/components/ItemSizeCard.vue";
 
 export default {
   props: ["id"],
+  components: {
+    ItemSizeCard,
+  },
   data() {
     return {
       item: null,

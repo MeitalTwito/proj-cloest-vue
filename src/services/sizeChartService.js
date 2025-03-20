@@ -10,10 +10,11 @@ const apiClient = axios.create({
 });
 
 export default {
-  getItems() {
+  getSizeChart() {
     return apiClient.get("/sizeChart");
   },
-  getItem(system, size) {
-    return apiClient.get(`/sizeChart/${system}/${size}`);
+  async getSize(sizingSystem, size) {
+    const response = await apiClient.get("/sizeChart");
+    return response.data.find((entry) => entry[sizingSystem] === size);
   },
 };

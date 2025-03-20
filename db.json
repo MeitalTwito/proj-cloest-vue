@@ -1,4 +1,117 @@
 {
+  "sizeChart": [
+    {
+      "us": "00",
+      "uk": "2",
+      "sml": "xxxxs",
+      "eur": "28",
+      "measurements": {
+        "cm": { "bust": 78, "waist": 57.5, "hips": 82 },
+        "inches": { "bust": 30.5, "waist": 22.5, "hips": 32.5 }
+      }
+    },
+    {
+      "us": "0",
+      "uk": "4",
+      "sml": "xxxs",
+      "eur": "30",
+      "measurements": {
+        "cm": { "bust": 81.5, "waist": 61, "hips": 86.5 },
+        "inches": { "bust": 32, "waist": 24, "hips": 34.5 }
+      }
+    },
+    {
+      "us": "2",
+      "uk": "6",
+      "sml": "xxs",
+      "eur": "32",
+      "measurements": {
+        "cm": { "bust": 84, "waist": 63.5, "hips": 89 },
+        "inches": { "bust": 33, "waist": 25, "hips": 35 }
+      }
+    },
+    {
+      "us": "4",
+      "uk": "8",
+      "sml": "xs",
+      "eur": "34",
+      "measurements": {
+        "cm": { "bust": 86.5, "waist": 66, "hips": 91.5 },
+        "inches": { "bust": 34, "waist": 26, "hips": 36.5 }
+      }
+    },
+    {
+      "us": "6",
+      "uk": "10",
+      "sml": "s",
+      "eur": "36",
+      "measurements": {
+        "cm": { "bust": 89, "waist": 68.5, "hips": 94 },
+        "inches": { "bust": 35, "waist": 27, "hips": 37 }
+      }
+    },
+    {
+      "us": "8",
+      "uk": "12",
+      "sml": "m",
+      "eur": "38",
+      "measurements": {
+        "cm": { "bust": 91.5, "waist": 71, "hips": 96.5 },
+        "inches": { "bust": 36, "waist": 28, "hips": 38.5 }
+      }
+    },
+    {
+      "us": "10",
+      "uk": "14",
+      "sml": "l",
+      "eur": "40",
+      "measurements": {
+        "cm": { "bust": 95.25, "waist": 75.5, "hips": 100 },
+        "inches": { "bust": 37.5, "waist": 29.75, "hips": 39.5 }
+      }
+    },
+    {
+      "us": "12",
+      "uk": "16",
+      "sml": "xl",
+      "eur": "42",
+      "measurements": {
+        "cm": { "bust": 99, "waist": 80, "hips": 104 },
+        "inches": { "bust": 39, "waist": 31.5, "hips": 41 }
+      }
+    },
+    {
+      "us": "14",
+      "uk": "18",
+      "sml": "xxl",
+      "eur": "44",
+      "measurements": {
+        "cm": { "bust": 103, "waist": 84.5, "hips": 108 },
+        "inches": { "bust": 40.5, "waist": 33.25, "hips": 42.5 }
+      }
+    },
+    {
+      "us": "16",
+      "uk": "20",
+      "sml": "xxxl",
+      "eur": "46",
+      "measurements": {
+        "cm": { "bust": 106.5, "waist": 89, "hips": 111.5 },
+        "inches": { "bust": 42, "waist": 35, "hips": 44 }
+      }
+    },
+    {
+      "us": "18",
+      "uk": "22",
+      "sml": "xxxxl",
+      "eur": "48",
+      "measurements": {
+        "cm": { "bust": 114.5, "waist": 94, "hips": 122 },
+        "inches": { "bust": 45, "waist": 37, "hips": 48 }
+      }
+    }
+  ],
+
   "items": [
     {
       "id": "u3f2P",

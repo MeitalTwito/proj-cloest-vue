@@ -1,5 +1,5 @@
 <template>
-  <nav><router-link to="/">Home</router-link> |</nav>
+  <nav><router-link to="/">Home</router-link></nav>
   <router-view />
 </template>
 
@@ -14,7 +14,7 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial, "Lucida Grande", sans-serif;
+    5 Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 input,

@@ -13,24 +13,11 @@
       </p>
       <p class="item-color">{{ item.colorName }}</p>
       <p class="item-size">Size: {{ item.size }}</p>
-      <button class="item-remove">
-        <svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="inherit"
-          stroke="inherit"
-        >
-          <path
-            d="M12 12.707l6.846 6.846.708-.707L12.707 12l6.847-6.846-.707-.708L12 11.293 5.154 4.446l-.707.708L11.293 12l-6.846 6.846.707.707L12 12.707z"
-          ></path>
-        </svg>
-      </button>
     </div>
-    <button class="item-update">update item</button>
+    <RouterLink :to="{ name: 'ItemDetails', params: { id: item.id } }">
+      <button class="item-update">item details</button>
+    </RouterLink>
   </article>
-  `
 </template>
 
 <script>
@@ -94,7 +81,7 @@ export default {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  width: calc(100vw / 9);
+  width: calc(100vw / 4);
 }
 .designer {
   background-color: #000;
@@ -102,17 +89,9 @@ export default {
   color: #fff;
   padding: 0 0.3rem;
 }
-.item-remove {
-  position: absolute;
-  bottom: 0;
-  right: 1rem;
-  background-color: transparent;
-  border: none;
-  font-weight: 200;
-  cursor: pointer;
-}
 
 .item-update {
+  width: 100%;
   text-transform: uppercase;
   background-color: white;
   color: black;

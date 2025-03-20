@@ -1,11 +1,18 @@
 import { createRouter, createWebHistory } from "vue-router";
 import ItemList from "../views/ItemList.vue";
+import ItemDetails from "../views/ItemDetails.vue";
 
 const routes = [
   {
     path: "/",
     name: "ItemList",
     component: ItemList,
+  },
+  {
+    path: "/item/:id",
+    name: "ItemDetails",
+    props: true,
+    component: ItemDetails,
   },
 ];
 

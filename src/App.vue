@@ -36,6 +36,10 @@ h1 {
   padding: 0.5rem;
 }
 
+ul {
+  list-style: none;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 5rem;

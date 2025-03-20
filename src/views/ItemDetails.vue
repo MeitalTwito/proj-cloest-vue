@@ -6,15 +6,21 @@
       </div>
       <div class="item-details">
         <div v-if="item.isDesigner" class="item-designer">designer</div>
-        <p class="item-details-brand">
-          {{ item.brand }}
-        </p>
+        <p class="item-details-brand">{{ item.brand }}</p>
         <p class="item-details-name">{{ item.itemName }}</p>
-        <p class="item-details-color">{{ item.colorName }}</p>
+        <div class="item-details-color">
+          <span>{{ item.colorName }}</span>
+          <div
+            v-for="(color, index) in item.colorKey"
+            :key="index"
+            class="color-box"
+            :style="getColor(index)"
+          ></div>
+        </div>
         <ItemSizeCard :size="item.size" />
       </div>
     </section>
-    <pre>{{ item }}</pre>
+    <!-- <pre>{{ item }}</pre> -->
   </div>
 </template>
 
@@ -30,6 +36,24 @@ export default {
   data() {
     return {
       item: null,
+      colors: {
+        beige: "#e6d4ab",
+        black: "#000",
+        blue: "#6f9dc5",
+        brown: "#7d5b41",
+        green: "#669960",
+        grey: "#c3c1c1",
+        khaki: "#b39969",
+        orange: "#b45f06",
+        navy: "#000080",
+        metallic:
+          "linear-gradient(45deg, rgb(92.9% 92.9% 92.9%), rgb(74.1% 74.1% 74.1%))",
+        pink: "#ecacac",
+        purple: "#a184af",
+        red: "#800020",
+        white: "#fff",
+        yellow: "#ecd76d",
+      },
     };
   },
   created() {
@@ -41,13 +65,22 @@ export default {
         console.log("error:", error);
       });
   },
+  methods: {
+    getColor(idx) {
+      const itemColor = this.item.colorKey[idx];
+      return { backgroundColor: this.colors[itemColor] };
+    },
+  },
 };
 </script>
 <style scoped>
 .item {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  column-gap: 3rem;
+  text-transform: uppercase;
 }
+
 .item-img-box {
   width: 100%;
   aspect-ratio: 3/4;
@@ -59,7 +92,36 @@ export default {
   height: 100%;
   object-fit: cover;
 }
-pre {
+.item-details-brand {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.item-details-name {
+  text-transform: capitalize;
   font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.item-details-color {
+  margin-bottom: 2rem;
+}
+.item-details-color span {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.color-box {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100px;
+}
+.color-box:hover {
+  outline: 1px solid black;
+  border: 3px solid white;
+  cursor: pointer;
+}
+pre {
+  font-size: 1rem;
 }
 </style>

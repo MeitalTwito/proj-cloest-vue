@@ -15,6 +15,8 @@ export default {
   },
   async getSize(sizingSystem, size) {
     const response = await apiClient.get("/sizeChart");
-    return response.data.find((entry) => entry[sizingSystem] === size);
+    return response.data.find(
+      (entry) => entry.sizingGuide[sizingSystem] === size
+    );
   },
 };

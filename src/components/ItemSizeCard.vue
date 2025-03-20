@@ -1,5 +1,5 @@
 <template>
-  <pre v-if="sizeDetails">{{ sizeDetails }}</pre>
+  <pre>{{ sizeDetails }}</pre>
 </template>
 
 <script>
@@ -11,15 +11,15 @@ export default {
       type: Object,
       required: true,
     },
-    data() {
-      return {
-        sizeDetails: null,
-      };
-    },
+  },
+  data() {
+    return {
+      sizeDetails: null,
+    };
   },
   created() {
     sizeChartService
-      .getSize("us", "10")
+      .getSize(this.size.sizingSystem, this.size.size)
       .then((response) => {
         this.sizeDetails = response;
       })

@@ -12,7 +12,9 @@
         <span v-if="item.isDesigner" class="designer">designer</span>
       </p>
       <p class="item-color">{{ item.colorName }}</p>
-      <p class="item-size">Size: {{ item.size }}</p>
+      <p class="item-size">
+        Size: {{ item.size.sizingSystem }} {{ item.size.size }}
+      </p>
     </div>
     <RouterLink :to="{ name: 'ItemDetails', params: { id: item.id } }">
       <button class="item-update">item details</button>

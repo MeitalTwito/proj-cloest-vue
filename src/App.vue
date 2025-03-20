@@ -14,7 +14,7 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-    5 Helvetica, Arial, "Lucida Grande", sans-serif;
+    Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 input,

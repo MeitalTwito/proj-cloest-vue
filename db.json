@@ -245,7 +245,8 @@
       "collections": ["elegant", "designer"],
       "imageUrl": "https://i.ebayimg.com/images/g/5uwAAOSwWaRkyIyh/s-l400.png",
       "createdAt": 1732991235921,
-      "isDesigner": true
+      "isDesigner": true,
+      "looks": ["AW31012025"]
     },
     {
       "id": "Bz6ld",

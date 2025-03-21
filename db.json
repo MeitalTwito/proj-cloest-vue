@@ -234,17 +234,17 @@
       "isDesigner": true
     },
     {
-      "id": "cFlN4",
-      "itemName": "billie blazer",
-      "colorName": "black",
-      "colorKey": ["black", "white"],
-      "size": { "sizingSystem": "sml", "size": "l" },
-      "brand": "heartloom",
+      "id": "QCysM",
+      "itemName": "v-neck satin wrap dress",
+      "colorName": "cream",
+      "colorKey": ["beige"],
+      "size": { "sizingSystem": "sml", "size": "m" },
+      "brand": "zimmermann",
       "mainCategory": "clothing",
-      "subCategories": ["jacket"],
-      "collections": ["business attire", "designer"],
-      "imageUrl": "https://storage.pardot.com/793453/1741985783bVHKHBYB/heartloom.jpg",
-      "createdAt": 1741985687383,
+      "subCategories": ["dress", "mini dress"],
+      "collections": ["elegant", "designer"],
+      "imageUrl": "https://i.ebayimg.com/images/g/5uwAAOSwWaRkyIyh/s-l400.png",
+      "createdAt": 1732991235921,
       "isDesigner": true
     },
     {
@@ -274,6 +274,23 @@
       "imageUrl": "https://www.mytheresa.com/media/1094/1238/100/b8/P00955654.jpg",
       "createdAt": 1741984364264,
       "isDesigner": true
+    }
+  ],
+
+  "lookBook": [
+    {
+      "id": "AW31012025",
+      "date": 1738355829000,
+      "location": {
+        "locationName": "Amphorae Winery",
+        "mapLink": "https://maps.app.goo.gl/Mb5xTbCyZwzV6qVu7"
+      },
+      "itemIds": ["QCysM"],
+      "imageUrls": [
+        "https://instagram.ftlv18-1.fna.fbcdn.net/v/t51.2885-15/475966399_18481555276037390_6947560866206383056_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=instagram.ftlv18-1.fna.fbcdn.net&_nc_cat=102&_nc_oc=Q6cZ2QFE8QdZO4ljYOlLabZmWPB4dXuBrMgTrlqjj0Iw9A9yfqhFMs4Krv1LfcfkjBReHeU&_nc_ohc=9NavY83hCJ0Q7kNvgES-p_0&_nc_gid=eNwrCros9wTdYtRCngEOrA&edm=AGenrX8BAAAA&ccb=7-5&oh=00_AYFn3mZjqTTsJEqjjsfHM2lgU64tJ2TD0VRsZAbajcBOXA&oe=67E3349A&_nc_sid=ed990e",
+        "https://instagram.ftlv18-1.fna.fbcdn.net/v/t51.2885-15/475985252_18481555291037390_627922838512198139_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmY3NTc2MS5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.ftlv18-1.fna.fbcdn.net&_nc_cat=102&_nc_oc=Q6cZ2QFZK8YNeiGY4yfbBq1xw3IifyLuf6m03yR4fUHNl37t6nT7nIPKbsQk_aOLOtYyMJ4&_nc_ohc=zFayljeqhLkQ7kNvgFn8yNc&_nc_gid=_cfGfnKkNocYrAzBrBHlOQ&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzU1NzkwOTAyMzUwNTU1MzE4OA%3D%3D.3-ccb7-5&oh=00_AYFDA5zW-LhhWIzpmvIUulKglAvhAlIoGs3-TeJ09Xufag&oe=67E34FBD&_nc_sid=10d13b",
+        "https://instagram.ftlv18-1.fna.fbcdn.net/v/t51.2885-15/475930132_18481555315037390_5671701590302913147_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmY3NTc2MS5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.ftlv18-1.fna.fbcdn.net&_nc_cat=102&_nc_oc=Q6cZ2QFZK8YNeiGY4yfbBq1xw3IifyLuf6m03yR4fUHNl37t6nT7nIPKbsQk_aOLOtYyMJ4&_nc_ohc=27XRxbox85sQ7kNvgGESWGW&_nc_gid=_cfGfnKkNocYrAzBrBHlOQ&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzU1NzkwOTAyMzUxNDAwMTgzNw%3D%3D.3-ccb7-5&oh=00_AYGvGz6udJ7Av5zyYl8K7Z0xmSDUclc9HyRlvi7gxTGmYg&oe=67E3229F&_nc_sid=10d13b"
+      ]
     }
   ]
 }

@@ -8,15 +8,16 @@
         <div v-if="item.isDesigner" class="item-designer">designer</div>
         <p class="item-details-brand">{{ item.brand }}</p>
         <p class="item-details-name">{{ item.itemName }}</p>
-        <div class="item-details-color">
-          <span>{{ item.colorName }}</span>
-          <div
+        <ul class="item-colors">
+          <li
             v-for="(color, index) in item.colorKey"
             :key="index"
-            class="color-box"
-            :style="getColor(index)"
-          ></div>
-        </div>
+            class="item-details-color"
+          >
+            <span>{{ color }}</span>
+            <div class="color-box" :style="getColor(color, index)"></div>
+          </li>
+        </ul>
         <ItemSizeCard :size="item.size" />
       </div>
     </section>
@@ -66,9 +67,10 @@ export default {
       });
   },
   methods: {
-    getColor(idx) {
-      const itemColor = this.item.colorKey[idx];
-      return { backgroundColor: this.colors[itemColor] };
+    getColor(color) {
+      const colorCss = this.colors[color];
+      if (color === "metallic") return { backgroundImage: colorCss };
+      return { backgroundColor: colorCss };
     },
   },
 };
@@ -102,7 +104,9 @@ export default {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
-.item-details-color {
+.item-colors {
+  display: flex;
+  gap: 1rem;
   margin-bottom: 2rem;
 }
 .item-details-color span {

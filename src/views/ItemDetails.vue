@@ -1,6 +1,6 @@
 <template>
-  <div v-if="item">
-    <section class="item container">
+  <div v-if="item" class="container">
+    <section class="item">
       <div class="item-img-box">
         <img class="item-img" :src="item.imageUrl" alt="" />
       </div>
@@ -21,18 +21,20 @@
         <ItemSizeCard :size="item.size" />
       </div>
     </section>
-    <!-- <pre>{{ item }}</pre> -->
+    <ItemLookList v-if="item.looks" :looks="item.looks" />
   </div>
 </template>
 
 <script>
 import ItemsService from "@/services/ItemsService";
 import ItemSizeCard from "@/components/ItemSizeCard.vue";
+import ItemLookList from "@/components/ItemLookList.vue";
 
 export default {
   props: ["id"],
   components: {
     ItemSizeCard,
+    ItemLookList,
   },
   data() {
     return {

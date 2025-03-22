@@ -136,20 +136,6 @@
 
   "items": [
     {
-      "id": "u3f2P",
-      "itemName": "reputation top",
-      "colorName": "black",
-      "colorKey": ["black"],
-      "size": { "sizingSystem": "sml", "size": "m" },
-      "brand": "aritzia",
-      "mainCategory": "clothing",
-      "subCategories": ["tank top"],
-      "collections": [],
-      "imageUrl": "https://assets.aritzia.com/image/upload/q_auto,f_auto,dpr_auto,w_1800/s25_a03_115251_1274_off_a",
-      "createdAt": 1741993606514,
-      "isDesigner": false
-    },
-    {
       "id": "N95tR",
       "itemName": "kaiti - waistcoat",
       "colorName": "black",
@@ -178,26 +164,13 @@
       "createdAt": 1741993335105,
       "isDesigner": false
     },
-    {
-      "id": "lO6d6",
-      "itemName": "jewel skort",
-      "colorName": "black",
-      "colorKey": ["black"],
-      "size": { "sizingSystem": "us", "size": "10" },
-      "brand": "aritzia",
-      "mainCategory": "clothing",
-      "subCategories": ["skort", "mini skirt"],
-      "collections": [],
-      "imageUrl": "https://assets.aritzia.com/image/upload/q_auto,f_auto,dpr_auto,w_1800/s25_a07_123865_1274_off_a",
-      "createdAt": 1741993260689,
-      "isDesigner": false
-    },
+
     {
       "id": "wI8Gh",
       "itemName": "high-rise pleated straight pants",
       "colorName": "black",
       "colorKey": ["black"],
-      "size": "40",
+      "size": { "sizingSystem": "eur", "size": "40" },
       "brand": "acne studios",
       "mainCategory": "clothing",
       "subCategories": ["pants", "suite pants"],

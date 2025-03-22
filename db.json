@@ -209,20 +209,6 @@
       "createdAt": 1732991235921,
       "isDesigner": true,
       "looks": ["LTPF28092024"]
-    },
-    {
-      "id": "9vTXc",
-      "itemName": "embellished bouclé minidress",
-      "colorName": "blue",
-      "colorKey": ["blue", "metallic"],
-      "size": { "sizingSystem": "sml", "size": "m" },
-      "brand": "self-portrait",
-      "mainCategory": "clothing",
-      "subCategories": ["dress", "mini dress"],
-      "collections": ["designer"],
-      "imageUrl": "https://www.mytheresa.com/media/1094/1238/100/b8/P00955654.jpg",
-      "createdAt": 1741984364264,
-      "isDesigner": true
     }
   ],
 

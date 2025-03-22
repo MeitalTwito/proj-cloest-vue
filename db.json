@@ -181,20 +181,6 @@
       "looks": ["LTPF28092024", "LMPF28092024"]
     },
     {
-      "id": "2K2DX",
-      "itemName": "leila dress",
-      "colorName": " red love",
-      "colorKey": ["red"],
-      "size": { "sizingSystem": "sml", "size": "l" },
-      "brand": "guizio",
-      "mainCategory": "clothing",
-      "subCategories": ["dress", "midi dress"],
-      "collections": ["designer"],
-      "imageUrl": "https://danielleguiziony.com/cdn/shop/files/DEC5_ECOMM_SPRING2231.jpg?v=1738099819",
-      "createdAt": 1741992437537,
-      "isDesigner": true
-    },
-    {
       "id": "QCysM",
       "itemName": "v-neck satin wrap dress",
       "colorName": "cream",

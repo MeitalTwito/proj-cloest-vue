@@ -140,7 +140,7 @@
       "itemName": "kaiti - waistcoat",
       "colorName": "black",
       "colorKey": ["black"],
-      "size": "38",
+      "size": { "sizingSystem": "eur", "size": "38" },
       "brand": "minimum",
       "mainCategory": "clothing",
       "subCategories": ["jacket", "vest"],

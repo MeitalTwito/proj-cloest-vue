@@ -1,9 +1,12 @@
 <template>
-  <nav><router-link to="/">Home</router-link></nav>
+  <nav class="nav">
+    <router-link class="logo boldonse-regular" to="/">mycloset</router-link>
+  </nav>
   <router-view />
 </template>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Boldonse&display=swap");
 :root {
   --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
@@ -45,6 +48,11 @@ h1 {
 ul {
   list-style: none;
 }
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .container {
   margin: 0 auto;
@@ -60,5 +68,15 @@ ul {
   font-size: 1.2rem;
   color: #666;
   cursor: pointer;
+}
+nav.nav {
+  padding: 2rem 5rem;
+}
+.logo {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 </style>

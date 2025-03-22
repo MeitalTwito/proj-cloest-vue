@@ -83,6 +83,7 @@ export default {
   grid-template-columns: 1fr 2fr;
   column-gap: 3rem;
   text-transform: uppercase;
+  margin-bottom: 2rem;
 }
 
 .item-img-box {

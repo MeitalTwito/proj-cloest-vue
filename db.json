@@ -150,18 +150,19 @@
       "isDesigner": false
     },
     {
-      "id": "p0A0E",
-      "itemName": "impact dress",
+      "id": "N95tR",
+      "itemName": "kaiti - waistcoat",
       "colorName": "black",
       "colorKey": ["black"],
-      "size": { "sizingSystem": "us", "size": "10" },
-      "brand": "aritzia",
+      "size": "38",
+      "brand": "minimum",
       "mainCategory": "clothing",
-      "subCategories": ["dress", "maxi dress"],
-      "collections": [],
-      "imageUrl": "https://assets.aritzia.com/image/upload/q_auto,f_auto,dpr_auto,w_1800/f24_a08_120548_1274_off_b",
-      "createdAt": 1741993463848,
-      "isDesigner": false
+      "subCategories": ["jacket", "vest"],
+      "collections": ["business attire"],
+      "imageUrl": "https://img01.ztat.net/article/spp-media-p1/d5fd5bc58caf4dcaa968041a96b65354/3f2deef820bf45c2b47041ea9ff2e42b.jpg?imwidth=1800&filter=packshot",
+      "createdAt": 1732991235921,
+      "isDesigner": false,
+      "looks": []
     },
     {
       "id": "C4MlM",
@@ -192,32 +193,33 @@
       "isDesigner": false
     },
     {
-      "id": "pM7S9",
-      "itemName": "roundup skort",
+      "id": "wI8Gh",
+      "itemName": "high-rise pleated straight pants",
       "colorName": "black",
       "colorKey": ["black"],
-      "size": { "sizingSystem": "us", "size": "8" },
-      "brand": "aritzia",
+      "size": "40",
+      "brand": "acne studios",
       "mainCategory": "clothing",
-      "subCategories": ["skirt", "mini skirt"],
-      "collections": [],
-      "imageUrl": "https://assets.aritzia.com/image/upload/q_auto,f_auto,dpr_auto,w_1800/s25_a26_124011_1274_off_a",
-      "createdAt": 1741993140989,
-      "isDesigner": false
+      "subCategories": ["pants", "suite pants"],
+      "collections": ["business attire", "designer"],
+      "imageUrl": "https://img.mytheresa.com/1094/1238/100/jpeg/catalog/product/37/P00834958.jpg",
+      "createdAt": 1732991235921,
+      "isDesigner": true
     },
     {
-      "id": "8ihtr",
-      "itemName": "halstead skirt",
-      "colorName": "pink multi",
-      "colorKey": ["pink", "green"],
-      "size": { "sizingSystem": "sml", "size": "l" },
-      "brand": "guizio",
+      "id": "UYTX8",
+      "itemName": "ovvie cotton trench coat",
+      "colorName": "beigh",
+      "colorKey": ["beige"],
+      "size": { "sizingSystem": "eur", "size": "38" },
+      "brand": "acne studios",
       "mainCategory": "clothing",
-      "subCategories": ["skirt", "mini skirt"],
-      "collections": ["designer"],
-      "imageUrl": "https://danielleguiziony.com/cdn/shop/files/GUIZIO_ECOMM_OCT20240440.jpg?v=1729526906",
-      "createdAt": 1741992566530,
-      "isDesigner": true
+      "subCategories": ["coats", "trench coats"],
+      "collections": ["outerwear", "designer"],
+      "imageUrl": "https://cdn.clothbase.com/uploads/00819559-57b4-4775-b1bb-1eb727745b8c/P00775682.jpg",
+      "createdAt": 1732991235921,
+      "isDesigner": true,
+      "looks": ["LTPF28092024", "LMPF28092024"]
     },
     {
       "id": "2K2DX",
@@ -249,18 +251,19 @@
       "looks": ["AW31012025"]
     },
     {
-      "id": "Bz6ld",
-      "itemName": "embellished bouclé minidress",
-      "colorName": "black",
-      "colorKey": ["black", "white"],
-      "size": { "sizingSystem": "uk", "size": "12" },
-      "brand": "self-portrait",
+      "id": "5h6r2",
+      "itemName": "asymmetric semi-sheer minidress",
+      "colorName": "orange/brown",
+      "colorKey": ["orange"],
+      "size": { "sizingSystem": "eur", "size": "40" },
+      "brand": "acne studios",
       "mainCategory": "clothing",
       "subCategories": ["dress", "mini dress"],
-      "collections": ["designer"],
-      "imageUrl": "https://www.mytheresa.com/media/1094/1238/100/d0/P00955680.jpg",
-      "createdAt": 1741984484023,
-      "isDesigner": true
+      "collections": ["elegant", "designer"],
+      "imageUrl": "https://image.reversible.com/spu_thumbnail/7d70d9975d5332ea925ddc35785cfc4ea894d3cfa7f2af82e1b714c614dc430b",
+      "createdAt": 1732991235921,
+      "isDesigner": true,
+      "looks": ["LTPF28092024"]
     },
     {
       "id": "9vTXc",
@@ -283,7 +286,7 @@
       "id": "AW31012025",
       "date": 1738355829000,
       "location": {
-        "locationName": "Amphorae Winery",
+        "locationName": "Amphorae Winery, Israel",
         "mapLink": "https://maps.app.goo.gl/Mb5xTbCyZwzV6qVu7"
       },
       "itemIds": ["QCysM"],
@@ -291,6 +294,34 @@
         "https://res.cloudinary.com/dkfhle2rg/image/upload/v1742576035/475930132_18481555315037390_5671701590302913147_n_lkr3do.jpg",
         "https://res.cloudinary.com/dkfhle2rg/image/upload/v1742576035/475966399_18481555276037390_6947560866206383056_n_o2zjv6.jpg",
         "https://res.cloudinary.com/dkfhle2rg/image/upload/v1742576035/475985252_18481555291037390_627922838512198139_n_acu2p8.jpg"
+      ]
+    },
+    {
+      "id": "LTPF28092024",
+      "date": 1759017600000,
+      "location": {
+        "locationName": "Le Tourville, Paris, France",
+        "mapLink": "https://maps.app.goo.gl/2ojavyE7CcqNpsiE8"
+      },
+      "itemIds": ["5h6r2", "UYTX8"],
+      "imageUrls": [
+        "https://res.cloudinary.com/dkfhle2rg/image/upload/v1742616799/461318541_1058758415753617_7358568568497963257_n.jpg_plg9d8.jpg",
+        "https://res.cloudinary.com/dkfhle2rg/image/upload/v1742616835/461253952_513563337968683_1044290233565452855_n.jpg_y8bhxf.jpg",
+        "https://res.cloudinary.com/dkfhle2rg/image/upload/v1742616880/461319176_748875824031630_4600691632785065951_n.jpg_p0aomx.jpg",
+        "https://res.cloudinary.com/dkfhle2rg/image/upload/v1742616911/461522415_1972953989793552_2861121431853267451_n.jpg_uh0de3.jpg"
+      ]
+    },
+    {
+      "id": "LMPF28092024",
+      "date": 1759017600000,
+      "location": {
+        "locationName": "Le Marais, Paris, France",
+        "mapLink": "https://maps.app.goo.gl/h4zc1BWQKv9w7TAY8"
+      },
+      "itemIds": ["N95tR", "wI8Gh", "UYTX8"],
+      "imageUrls": [
+        "https://res.cloudinary.com/dkfhle2rg/image/upload/v1742617813/461397503_898336552165403_7435596145371859377_n.jpg_c6kzfg.jpg",
+        "https://res.cloudinary.com/dkfhle2rg/image/upload/v1742617853/461483690_424637856924977_836748975468976238_n.jpg_ehhzy1.jpg"
       ]
     }
   ]

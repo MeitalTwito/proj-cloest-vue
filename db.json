@@ -148,7 +148,7 @@
       "imageUrl": "https://img01.ztat.net/article/spp-media-p1/d5fd5bc58caf4dcaa968041a96b65354/3f2deef820bf45c2b47041ea9ff2e42b.jpg?imwidth=1800&filter=packshot",
       "createdAt": 1732991235921,
       "isDesigner": false,
-      "looks": []
+      "looks": ["LMPF28092024"]
     },
     {
       "id": "C4MlM",
@@ -177,7 +177,8 @@
       "collections": ["business attire", "designer"],
       "imageUrl": "https://img.mytheresa.com/1094/1238/100/jpeg/catalog/product/37/P00834958.jpg",
       "createdAt": 1732991235921,
-      "isDesigner": true
+      "isDesigner": true,
+      "looks": ["LMPF28092024"]
     },
     {
       "id": "UYTX8",

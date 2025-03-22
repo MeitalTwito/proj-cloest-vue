@@ -148,7 +148,7 @@
       "imageUrl": "https://img01.ztat.net/article/spp-media-p1/d5fd5bc58caf4dcaa968041a96b65354/3f2deef820bf45c2b47041ea9ff2e42b.jpg?imwidth=1800&filter=packshot",
       "createdAt": 1732991235921,
       "isDesigner": false,
-      "looks": ["LMPF28092024"]
+      "looks": ["LMPF28092024", "CAPF28092024"]
     },
     {
       "id": "C4MlM",
@@ -178,7 +178,7 @@
       "imageUrl": "https://img.mytheresa.com/1094/1238/100/jpeg/catalog/product/37/P00834958.jpg",
       "createdAt": 1732991235921,
       "isDesigner": true,
-      "looks": ["LMPF28092024"]
+      "looks": ["LMPF28092024", "CAPF28092024"]
     },
     {
       "id": "UYTX8",
@@ -296,6 +296,19 @@
       "imageUrls": [
         "https://res.cloudinary.com/dkfhle2rg/image/upload/v1742617853/461483690_424637856924977_836748975468976238_n.jpg_ehhzy1.jpg",
         "https://res.cloudinary.com/dkfhle2rg/image/upload/v1742617813/461397503_898336552165403_7435596145371859377_n.jpg_c6kzfg.jpg"
+      ]
+    },
+    {
+      "id": "CAPF28092024",
+      "date": 1727481600000,
+      "location": {
+        "locationName": "Hôtel Vernet Champs Elysées Paris",
+        "mapLink": "https://maps.app.goo.gl/txzAAc6Kj1q75EfeA"
+      },
+      "itemIds": ["N95tR", "wI8Gh"],
+      "imageUrls": [
+        "https://res.cloudinary.com/dkfhle2rg/image/upload/v1742635753/461437211_422619617132847_1377518814574355518_n.jpg_s7xohl.jpg",
+        "https://res.cloudinary.com/dkfhle2rg/image/upload/v1742635738/461342405_408854415579792_2322149786261171230_n.jpg_sfnrug.jpg"
       ]
     }
   ]

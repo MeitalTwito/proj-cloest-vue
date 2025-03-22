@@ -151,21 +151,6 @@
       "looks": ["LMPF28092024", "CAPF28092024"]
     },
     {
-      "id": "C4MlM",
-      "itemName": "regal wool vest",
-      "colorName": "modern taupe",
-      "colorKey": ["khaki"],
-      "size": { "sizingSystem": "us", "size": "10" },
-      "brand": "aritzia",
-      "mainCategory": "clothing",
-      "subCategories": ["vest"],
-      "collections": [],
-      "imageUrl": "https://assets.aritzia.com/image/upload/q_auto,f_auto,dpr_auto,w_1800/f24_a04_122996_6038_off_a",
-      "createdAt": 1741993335105,
-      "isDesigner": false
-    },
-
-    {
       "id": "wI8Gh",
       "itemName": "high-rise pleated straight pants",
       "colorName": "black",

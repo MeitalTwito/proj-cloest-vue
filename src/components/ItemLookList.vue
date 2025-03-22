@@ -21,6 +21,7 @@ export default {
 <style>
 .item-look-book {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem;
 }
 </style>

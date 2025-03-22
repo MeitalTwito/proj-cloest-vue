@@ -82,7 +82,7 @@ export default {
 </script>
 <style scoped>
 .look-book-card {
-  max-width: 30rem;
+  /* max-width: 30rem; */
   border: 1px solid #eee;
   padding: 1rem;
   box-shadow: var(--shadow-sm);
